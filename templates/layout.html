@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#070b16">
+    <title>{% block title %}ThirdEye Forensic{% endblock %} | Facial Identification from Voice Descriptions</title>
+
+    <link rel="icon" type="image/png" href="{{ url_for('static', filename='images/favicon.png') }}">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    {% block extra_css %}{% endblock %}
+</head>
+
+<body class="{% block body_class %}{% endblock %}">
+
+<nav class="site-nav" aria-label="Main navigation">
+    <div class="inner">
+        <a class="brand" href="{{ url_for('dashboard') if session.get('user_id') else url_for('home') }}">
+            <img src="{{ url_for('static', filename='images/logo-nav.png') }}" alt="ThirdEye logo">
+            <span class="brand-text">ThirdEye<small>Forensic AI</small></span>
+        </a>
+
+        <button class="nav-toggle" id="navToggle" aria-label="Toggle menu" aria-expanded="false"><span></span></button>
+
+        <ul class="nav-links" id="navLinks">
+            {% if session.get('user_id') %}
+            <li><a href="{{ url_for('dashboard') }}" class="{{ 'active' if request.endpoint == 'dashboard' }}">Dashboard</a></li>
+            <li><a href="{{ url_for('sketch_constructor') }}" class="{{ 'active' if request.endpoint == 'sketch_constructor' }}">Face Constructor</a></li>
+            <li><a href="{{ url_for('recognition') }}" class="{{ 'active' if request.endpoint == 'recognition' }}">Recognition</a></li>
+            <li class="nav-user">
+                <span class="avatar">{{ session['username'][:1] }}</span>
+                <span class="who">{{ session['username'] }}<small>{{ session.get('role', 'user') }}</small></span>
+                <a href="{{ url_for('logout') }}">Logout</a>
+            </li>
+            {% else %}
+            <li><a href="{{ url_for('home') }}" class="{{ 'active' if request.endpoint == 'home' }}">Home</a></li>
+            <li><a href="{{ url_for('home') }}#how-it-works">How it works</a></li>
+            <li><a href="{{ url_for('login') }}" class="{{ 'active' if request.endpoint == 'login' }}">Login</a></li>
+            <li><a href="{{ url_for('register') }}" class="btn-x btn-brand" style="padding:9px 18px;color:#fff">Register</a></li>
+            {% endif %}
+        </ul>
+    </div>
+</nav>
+
+{# Flash messages are rendered as dismissible toasts #}
+{% with messages = get_flashed_messages(with_categories=true) %}
+{% if messages %}
+<div class="toast-stack" id="toastStack" role="status" aria-live="polite">
+    {% for category, message in messages %}
+    <div class="toast {{ category }}">
+        <span class="t-icon">{{ {'success': '✅', 'danger': '⛔', 'error': '⛔', 'warning': '⚠️', 'info': 'ℹ️'}.get(category, 'ℹ️') }}</span>
+        <span class="t-msg">{{ message }}</span>
+        <button type="button" aria-label="Dismiss">&times;</button>
+    </div>
+    {% endfor %}
+</div>
+{% endif %}
+{% endwith %}
+
+<main class="main-content">
+    {% block content %}{% endblock %}
+</main>
+
+<footer class="site-footer">
+    <div class="inner">
+        <span><b>ThirdEye Forensic</b> &nbsp;·&nbsp; Deep Learning-Based Forensic Facial Identification from Voice Descriptions</span>
+        <span class="f-links">
+            <a href="{{ url_for('home') }}">Home</a>
+            {% if session.get('user_id') %}
+            <a href="{{ url_for('dashboard') }}">Dashboard</a>
+            {% else %}
+            <a href="{{ url_for('login') }}">Login</a>
+            {% endif %}
+        </span>
+        <span>© 2026 Final Year Project</span>
+    </div>
+</footer>
+
+<script>
+(function () {
+    // Mobile menu
+    var t = document.getElementById('navToggle'), l = document.getElementById('navLinks');
+    if (t && l) t.addEventListener('click', function () {
+        var open = l.classList.toggle('open');
+        t.setAttribute('aria-expanded', open);
+    });
+    // Toasts: auto-dismiss after 6s, or on click of the close button
+    function dismiss(el) { el.classList.add('leaving'); setTimeout(function () { el.remove(); }, 300); }
+    document.querySelectorAll('.toast').forEach(function (el) {
+        el.querySelector('button').addEventListener('click', function () { dismiss(el); });
+        setTimeout(function () { if (el.isConnected) dismiss(el); }, 6000);
+    });
+})();
+</script>
+{% block scripts %}{% endblock %}
+</body>
+</html>

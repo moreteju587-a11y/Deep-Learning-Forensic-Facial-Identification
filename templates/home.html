@@ -1,0 +1,111 @@
+{% extends "layout.html" %}
+{% block title %}Home{% endblock %}
+
+{% block content %}
+<section class="hero container-x">
+    <span class="pill"><i></i> AI-Powered Forensic Identification</span>
+    <h1>Turn a witness's <span class="text-grad">spoken description</span> into a matched suspect face</h1>
+    <p class="lead">ThirdEye converts voice descriptions into an AI-generated composite sketch, then matches it
+        against a criminal database using deep-learning facial recognition &mdash; cutting sketch-to-lead time
+        from hours to minutes.</p>
+    <div class="hero-cta">
+        {% if session.get('user_id') %}
+        <a href="{{ url_for('sketch_constructor') }}" class="btn-x btn-brand btn-lg-x">🎙 Start a New Case</a>
+        <a href="{{ url_for('dashboard') }}" class="btn-x btn-ghost btn-lg-x">View Dashboard</a>
+        {% else %}
+        <a href="{{ url_for('register') }}" class="btn-x btn-brand btn-lg-x">Get Started Free</a>
+        <a href="{{ url_for('login') }}" class="btn-x btn-ghost btn-lg-x">Officer Login</a>
+        {% endif %}
+    </div>
+
+    <div class="stats-strip">
+        <div><b>94%</b><span>Recognition accuracy</span></div>
+        <div><b>&lt;60s</b><span>Sketch generation time</span></div>
+        <div><b>10K+</b><span>Database records</span></div>
+        <div><b>24/7</b><span>Available to officers</span></div>
+    </div>
+</section>
+
+<section class="section" id="how-it-works">
+    <div class="container-x">
+        <div class="section-head">
+            <span class="eyebrow">Workflow</span>
+            <h2>Three steps from description to lead</h2>
+            <p>No sketch artist required. Just a witness, a microphone, and the case moves forward.</p>
+        </div>
+        <div class="timeline">
+            <div class="t-step">
+                <div class="num">1</div>
+                <h3>Describe by voice</h3>
+                <p>The witness answers guided prompts about facial features. Speech is transcribed and normalized
+                    in real time.</p>
+            </div>
+            <div class="t-step">
+                <div class="num">2</div>
+                <h3>AI generates the face</h3>
+                <p>Collected features are converted into a prompt and rendered into a realistic composite face by
+                    a generative model.</p>
+            </div>
+            <div class="t-step">
+                <div class="num">3</div>
+                <h3>Match against records</h3>
+                <p>The generated face is encoded and compared to the criminal database, returning the closest
+                    match with a confidence score.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="section" style="padding-top:0">
+    <div class="container-x">
+        <div class="section-head">
+            <span class="eyebrow">Capabilities</span>
+            <h2>Built for real casework</h2>
+        </div>
+        <div class="grid-3">
+            <div class="feature">
+                <div class="ico">🎙️</div>
+                <h3>Guided voice capture</h3>
+                <p>Step-by-step questions for gender, age, face shape, eyes, hair and more, with live transcription.</p>
+            </div>
+            <div class="feature">
+                <div class="ico">🧠</div>
+                <h3>Generative face synthesis</h3>
+                <p>A deep-learning model turns structured features into a photorealistic composite sketch.</p>
+            </div>
+            <div class="feature">
+                <div class="ico">🔍</div>
+                <h3>Deep-learning recognition</h3>
+                <p>Facial encodings are compared against the database to surface the single closest match.</p>
+            </div>
+            <div class="feature">
+                <div class="ico">📊</div>
+                <h3>Confidence scoring</h3>
+                <p>Every match is returned with a similarity score so officers can judge reliability at a glance.</p>
+            </div>
+            <div class="feature">
+                <div class="ico">📄</div>
+                <h3>Case reports</h3>
+                <p>Generate a shareable PDF report of the sketch, match and details for the case file.</p>
+            </div>
+            <div class="feature">
+                <div class="ico">🔒</div>
+                <h3>Role-based access</h3>
+                <p>Officer and admin accounts keep case data and database management properly separated.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="container-x" style="padding-bottom:90px">
+    <div class="cta-band">
+        <h2>Ready to run your first case?</h2>
+        <p>Create an account and generate your first AI composite sketch in under two minutes.</p>
+        {% if session.get('user_id') %}
+        <a href="{{ url_for('sketch_constructor') }}" class="btn-x btn-brand btn-lg-x">Start a Case</a>
+        {% else %}
+        <a href="{{ url_for('register') }}" class="btn-x btn-brand btn-lg-x">Create Free Account</a>
+        {% endif %}
+    </div>
+</section>
+{% endblock %}

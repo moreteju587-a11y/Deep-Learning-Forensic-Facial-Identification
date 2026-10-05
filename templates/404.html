@@ -1,0 +1,12 @@
+{% extends "layout.html" %}
+{% block title %}Page Not Found{% endblock %}
+{% block content %}
+<div class="container-x err-shell">
+    <div>
+        <div class="err-code text-grad">404</div>
+        <h1 style="margin-bottom:10px">Page not found</h1>
+        <p style="color:var(--muted);margin-bottom:26px">The page you're looking for doesn't exist or may have moved.</p>
+        <a href="{{ url_for('home') }}" class="btn-x btn-brand btn-lg-x">← Back to Home</a>
+    </div>
+</div>
+{% endblock %}

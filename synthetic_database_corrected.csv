@@ -1,0 +1,328 @@
+image,name,age,crime,last_seen,gender,skin,head,hair,eyebrows,eyes,nose,lips,mustach
+000001.png,Divya Yadav,25,Fraud,Mysuru,Female,Tan,Long face,Crew cut,Thick eyebrows,Almond eyes,Flat nose,Full lips,Clean shaven
+000002.png,Sneha Nair,63,Smuggling,Hubli,Female,Black,Long face,Afro,Arched eyebrows,Small eyes,Hooked nose,Small mouth,Stubble
+000003.png,Kavya Sharma,19,Assault,Dharwad,Female,Light brown,Heart-shaped face,Bald,Thick eyebrows,Small eyes,Broad nose,Pouty lips,Stubble
+000004.png,Priya Sharma,34,Fraud,Belagavi,Female,Deep brown,Square face,Bald,Bushy eyebrows,Narrow eyes,Button nose,Wide mouth,Clean shaven
+000005.png,Divya Sharma,54,Forgery,Belagavi,Female,Dark brown,Heart-shaped face,Crew cut,Thick eyebrows,Deep-set eyes,Pointed nose,Wide mouth,Stubble
+000006.png,Meera Patel,21,Assault,Mysuru,Female,Black,Wide face,Bald,Straight eyebrows,Narrow eyes,Pointed nose,Wide mouth,Stubble
+000007.png,Rahul Yadav,58,Fraud,Hubli,Male,Light brown,Long face,Long straight hair,Straight eyebrows,Deep-set eyes,Broad nose,Small mouth,Clean shaven
+000008.png,Suresh Yadav,41,Theft,Mangaluru,Male,Black,Narrow face,Long straight hair,Arched eyebrows,Large eyes,Button nose,Pouty lips,Full beard
+000009.png,Nikhil Patel,18,Forgery,Mangaluru,Male,Light brown,Oval face,Wavy hair,Arched eyebrows,Round eyes,Flat nose,Full lips,Clean shaven
+000010.png,Sneha Sharma,45,Theft,Belagavi,Female,Black,Long face,Crew cut,Straight eyebrows,Narrow eyes,Pointed nose,Full lips,Full beard
+000011.png,Priya Patel,27,Theft,Tumakuru,Female,Olive,Narrow face,Curly hair,Straight eyebrows,Narrow eyes,Broad nose,Pouty lips,Mustache
+000012.png,Arjun Reddy,45,Forgery,Belagavi,Male,Dark brown,Narrow face,Long straight hair,Thin eyebrows,Deep-set eyes,Button nose,Small mouth,Mustache
+000013.png,Rahul Patel,19,Burglary,Belagavi,Male,Black,Heart-shaped face,Bald,Arched eyebrows,Narrow eyes,Pointed nose,Small mouth,Mustache
+000014.png,Divya Kumar,55,Smuggling,Mangaluru,Female,Deep brown,Narrow face,Short straight hair,Thin eyebrows,Round eyes,Flat nose,Thin lips,Mustache
+000015.png,Priya Kumar,22,Forgery,Mangaluru,Female,Light brown,Oval face,Short straight hair,Thin eyebrows,Narrow eyes,Button nose,Small mouth,Stubble
+000016.png,Vikram Reddy,52,Fraud,Hubli,Male,Black,Narrow face,Crew cut,Arched eyebrows,Large eyes,Button nose,Full lips,Clean shaven
+000017.png,Divya Patel,43,Theft,Tumakuru,Female,Dark brown,Heart-shaped face,Bald,Thick eyebrows,Small eyes,Broad nose,Full lips,Goatee
+000018.png,Meera Nair,57,Fraud,Mangaluru,Female,Dark brown,Square face,Wavy hair,Bushy eyebrows,Round eyes,Button nose,Pouty lips,Clean shaven
+000019.png,Vikram Yadav,52,Theft,Hubli,Male,Deep brown,Oval face,Bald,Thick eyebrows,Almond eyes,Pointed nose,Pouty lips,Goatee
+000020.png,Kavya Sharma,49,Burglary,Belagavi,Female,Deep brown,Square face,Afro,Arched eyebrows,Large eyes,Button nose,Small mouth,Thick mustache
+000021.png,Nikhil Reddy,26,Fraud,Mysuru,Male,Tan,Oval face,Long straight hair,Bushy eyebrows,Small eyes,Broad nose,Thin lips,Full beard
+000022.png,Nikhil Patel,26,Assault,Mysuru,Male,Dark brown,Heart-shaped face,Crew cut,Thick eyebrows,Small eyes,Broad nose,Wide mouth,Mustache
+000023.png,Sneha Kumar,52,Theft,Hubli,Female,Light brown,Narrow face,Crew cut,Thin eyebrows,Large eyes,Broad nose,Full lips,Full beard
+000024.png,Vikram Gowda,29,Forgery,Mangaluru,Male,Deep brown,Wide face,Wavy hair,Thin eyebrows,Large eyes,Hooked nose,Small mouth,Thick mustache
+000025.png,Ananya Sharma,62,Fraud,Mangaluru,Female,Light brown,Square face,Long straight hair,Straight eyebrows,Narrow eyes,Flat nose,Wide mouth,Clean shaven
+000026.png,Arjun Kumar,34,Theft,Mangaluru,Male,Very fair,Narrow face,Afro,Thin eyebrows,Narrow eyes,Broad nose,Full lips,Stubble
+000027.png,Kavya Kumar,62,Fraud,Hubli,Female,Dark brown,Wide face,Curly hair,Arched eyebrows,Almond eyes,Button nose,Thin lips,Mustache
+000028.png,Ananya Patel,27,Theft,Mysuru,Female,Medium brown,Long face,Bald,Bushy eyebrows,Deep-set eyes,Flat nose,Full lips,Mustache
+000029.png,Suresh Sharma,49,Assault,Tumakuru,Male,Olive,Heart-shaped face,Bald,Thick eyebrows,Small eyes,Pointed nose,Full lips,Full beard
+000030.png,Vikram Gowda,40,Burglary,Belagavi,Male,Dark brown,Long face,Wavy hair,Straight eyebrows,Large eyes,Broad nose,Thin lips,Goatee
+000031.png,Kavya Nair,59,Forgery,Mangaluru,Female,Fair,Long face,Long straight hair,Arched eyebrows,Almond eyes,Pointed nose,Pouty lips,Clean shaven
+000032.png,Meera Gowda,37,Forgery,Dharwad,Female,Olive,Narrow face,Bald,Straight eyebrows,Deep-set eyes,Hooked nose,Full lips,Stubble
+000033.png,Kavya Nair,53,Forgery,Dharwad,Female,Olive,Heart-shaped face,Bald,Bushy eyebrows,Round eyes,Pointed nose,Thin lips,Stubble
+000034.png,Sneha Gowda,28,Fraud,Mangaluru,Female,Light brown,Oval face,Long straight hair,Arched eyebrows,Large eyes,Button nose,Small mouth,Full beard
+000035.png,Suresh Nair,31,Assault,Belagavi,Male,Tan,Narrow face,Long straight hair,Arched eyebrows,Large eyes,Button nose,Thin lips,Thick mustache
+000036.png,Vikram Sharma,48,Theft,Belagavi,Male,Very fair,Round face,Short straight hair,Bushy eyebrows,Almond eyes,Button nose,Pouty lips,Mustache
+000037.png,Ananya Gowda,59,Fraud,Tumakuru,Female,Black,Round face,Crew cut,Bushy eyebrows,Round eyes,Broad nose,Thin lips,Thick mustache
+000038.png,Priya Nair,36,Assault,Mangaluru,Female,Tan,Long face,Wavy hair,Straight eyebrows,Round eyes,Button nose,Full lips,Stubble
+000039.png,Prakash Sharma,47,Theft,Mangaluru,Male,Medium brown,Round face,Bald,Arched eyebrows,Small eyes,Hooked nose,Full lips,Thick mustache
+000040.png,Arjun Patel,46,Assault,Mangaluru,Male,Dark brown,Square face,Crew cut,Straight eyebrows,Large eyes,Button nose,Small mouth,Clean shaven
+000041.png,Prakash Patel,54,Theft,Belagavi,Male,Very fair,Round face,Short straight hair,Arched eyebrows,Round eyes,Hooked nose,Wide mouth,Goatee
+000042.png,Rahul Patel,56,Smuggling,Mangaluru,Male,Dark brown,Long face,Afro,Bushy eyebrows,Large eyes,Broad nose,Wide mouth,Mustache
+000043.png,Priya Gowda,49,Assault,Hubli,Female,Medium brown,Narrow face,Short straight hair,Bushy eyebrows,Large eyes,Pointed nose,Small mouth,Stubble
+000044.png,Rahul Gowda,20,Burglary,Dharwad,Male,Dark brown,Round face,Long straight hair,Thin eyebrows,Deep-set eyes,Flat nose,Full lips,Thick mustache
+000045.png,Sneha Kumar,57,Smuggling,Dharwad,Female,Deep brown,Long face,Crew cut,Straight eyebrows,Round eyes,Pointed nose,Full lips,Mustache
+000046.png,Ananya Yadav,59,Theft,Mangaluru,Female,Light brown,Oval face,Curly hair,Thin eyebrows,Round eyes,Broad nose,Pouty lips,Clean shaven
+000047.png,Suresh Reddy,53,Forgery,Mangaluru,Male,Olive,Oval face,Wavy hair,Straight eyebrows,Narrow eyes,Button nose,Pouty lips,Mustache
+000048.png,Prakash Sharma,44,Burglary,Belagavi,Male,Olive,Narrow face,Crew cut,Straight eyebrows,Round eyes,Broad nose,Wide mouth,Thick mustache
+000049.png,Suresh Nair,41,Burglary,Belagavi,Male,Black,Round face,Afro,Bushy eyebrows,Small eyes,Pointed nose,Thin lips,Clean shaven
+000050.png,Priya Yadav,37,Assault,Hubli,Female,Olive,Oval face,Wavy hair,Thin eyebrows,Small eyes,Broad nose,Wide mouth,Goatee
+000051.png,Vikram Gowda,28,Burglary,Belagavi,Male,Medium brown,Heart-shaped face,Long straight hair,Straight eyebrows,Almond eyes,Flat nose,Small mouth,Stubble
+000052.png,Prakash Kumar,21,Theft,Mangaluru,Male,Deep brown,Round face,Wavy hair,Bushy eyebrows,Large eyes,Broad nose,Pouty lips,Stubble
+000053.png,Suresh Sharma,27,Smuggling,Dharwad,Male,Black,Oval face,Bald,Straight eyebrows,Narrow eyes,Button nose,Pouty lips,Clean shaven
+000054.png,Nikhil Patel,32,Burglary,Belagavi,Male,Tan,Heart-shaped face,Short straight hair,Thin eyebrows,Round eyes,Hooked nose,Pouty lips,Thick mustache
+000055.png,Ananya Yadav,51,Forgery,Belagavi,Female,Very fair,Oval face,Bald,Bushy eyebrows,Almond eyes,Hooked nose,Small mouth,Thick mustache
+000056.png,Arjun Sharma,31,Forgery,Dharwad,Male,Black,Round face,Afro,Thick eyebrows,Large eyes,Pointed nose,Wide mouth,Full beard
+000057.png,Kavya Sharma,47,Fraud,Hubli,Female,Dark brown,Narrow face,Wavy hair,Arched eyebrows,Large eyes,Flat nose,Thin lips,Clean shaven
+000058.png,Sneha Reddy,23,Burglary,Belagavi,Female,Dark brown,Oval face,Curly hair,Straight eyebrows,Almond eyes,Flat nose,Thin lips,Full beard
+000059.png,Suresh Patel,48,Smuggling,Mangaluru,Male,Tan,Heart-shaped face,Short straight hair,Arched eyebrows,Almond eyes,Hooked nose,Pouty lips,Clean shaven
+000060.png,Meera Sharma,52,Assault,Dharwad,Female,Dark brown,Long face,Bald,Arched eyebrows,Almond eyes,Button nose,Small mouth,Full beard
+000061.png,Suresh Yadav,35,Assault,Hubli,Male,Medium brown,Wide face,Long straight hair,Bushy eyebrows,Small eyes,Broad nose,Small mouth,Goatee
+000062.png,Arjun Yadav,34,Smuggling,Hubli,Male,Fair,Heart-shaped face,Crew cut,Arched eyebrows,Deep-set eyes,Pointed nose,Pouty lips,Clean shaven
+000063.png,Kavya Kumar,48,Forgery,Dharwad,Female,Medium brown,Wide face,Afro,Bushy eyebrows,Almond eyes,Flat nose,Thin lips,Goatee
+000064.png,Sneha Reddy,52,Assault,Mysuru,Female,Olive,Oval face,Wavy hair,Thin eyebrows,Almond eyes,Button nose,Small mouth,Stubble
+000065.png,Divya Gowda,31,Theft,Belagavi,Female,Medium brown,Wide face,Crew cut,Bushy eyebrows,Narrow eyes,Hooked nose,Pouty lips,Full beard
+000066.png,Vikram Patel,55,Assault,Belagavi,Male,Dark brown,Narrow face,Curly hair,Bushy eyebrows,Deep-set eyes,Hooked nose,Wide mouth,Stubble
+000067.png,Rahul Nair,50,Smuggling,Belagavi,Male,Dark brown,Oval face,Afro,Thick eyebrows,Large eyes,Flat nose,Wide mouth,Stubble
+000068.png,Nikhil Kumar,39,Fraud,Belagavi,Male,Black,Long face,Short straight hair,Thin eyebrows,Narrow eyes,Broad nose,Full lips,Mustache
+000069.png,Priya Yadav,63,Theft,Tumakuru,Female,Dark brown,Wide face,Bald,Bushy eyebrows,Small eyes,Pointed nose,Full lips,Goatee
+000070.png,Prakash Gowda,26,Assault,Mangaluru,Male,Tan,Heart-shaped face,Bald,Bushy eyebrows,Large eyes,Broad nose,Full lips,Full beard
+000071.png,Divya Kumar,18,Burglary,Mysuru,Female,Very fair,Long face,Wavy hair,Straight eyebrows,Deep-set eyes,Broad nose,Pouty lips,Goatee
+000072.png,Suresh Sharma,27,Theft,Hubli,Male,Fair,Narrow face,Afro,Straight eyebrows,Narrow eyes,Pointed nose,Wide mouth,Clean shaven
+000073.png,Ananya Yadav,21,Smuggling,Dharwad,Female,Very fair,Heart-shaped face,Short straight hair,Bushy eyebrows,Round eyes,Hooked nose,Full lips,Goatee
+000074.png,Arjun Patel,61,Forgery,Belagavi,Male,Olive,Wide face,Long straight hair,Straight eyebrows,Round eyes,Pointed nose,Full lips,Thick mustache
+000075.png,Nikhil Nair,44,Forgery,Hubli,Male,Black,Narrow face,Curly hair,Bushy eyebrows,Deep-set eyes,Pointed nose,Wide mouth,Clean shaven
+000076.png,Prakash Gowda,62,Assault,Tumakuru,Male,Fair,Wide face,Wavy hair,Thick eyebrows,Narrow eyes,Broad nose,Thin lips,Full beard
+000077.png,Arjun Kumar,57,Smuggling,Mysuru,Male,Deep brown,Oval face,Short straight hair,Straight eyebrows,Deep-set eyes,Broad nose,Wide mouth,Full beard
+000078.png,Vikram Sharma,56,Smuggling,Belagavi,Male,Black,Long face,Afro,Arched eyebrows,Large eyes,Button nose,Wide mouth,Mustache
+000079.png,Ananya Sharma,51,Forgery,Mangaluru,Female,Tan,Heart-shaped face,Afro,Thin eyebrows,Round eyes,Pointed nose,Thin lips,Clean shaven
+000080.png,Divya Patel,60,Fraud,Belagavi,Female,Light brown,Square face,Curly hair,Straight eyebrows,Round eyes,Broad nose,Small mouth,Mustache
+000081.png,Kavya Reddy,44,Fraud,Belagavi,Female,Olive,Square face,Wavy hair,Thick eyebrows,Round eyes,Broad nose,Full lips,Clean shaven
+000082.png,Prakash Gowda,50,Theft,Belagavi,Male,Fair,Round face,Short straight hair,Thin eyebrows,Large eyes,Flat nose,Small mouth,Mustache
+000083.png,Sneha Patel,63,Forgery,Belagavi,Female,Medium brown,Wide face,Long straight hair,Thick eyebrows,Large eyes,Broad nose,Small mouth,Goatee
+000084.png,Vikram Reddy,40,Assault,Dharwad,Male,Dark brown,Heart-shaped face,Crew cut,Thin eyebrows,Small eyes,Button nose,Small mouth,Goatee
+000085.png,Ananya Reddy,55,Assault,Dharwad,Female,Fair,Heart-shaped face,Long straight hair,Bushy eyebrows,Deep-set eyes,Flat nose,Full lips,Stubble
+000086.png,Arjun Patel,51,Forgery,Dharwad,Male,Black,Oval face,Short straight hair,Straight eyebrows,Round eyes,Flat nose,Wide mouth,Full beard
+000087.png,Arjun Patel,40,Smuggling,Tumakuru,Male,Deep brown,Wide face,Wavy hair,Thick eyebrows,Narrow eyes,Hooked nose,Full lips,Full beard
+000088.png,Vikram Nair,22,Forgery,Belagavi,Male,Medium brown,Oval face,Crew cut,Thick eyebrows,Large eyes,Button nose,Small mouth,Mustache
+000089.png,Suresh Gowda,23,Burglary,Tumakuru,Male,Very fair,Round face,Long straight hair,Bushy eyebrows,Large eyes,Button nose,Full lips,Thick mustache
+000090.png,Vikram Patel,27,Forgery,Mysuru,Male,Tan,Round face,Crew cut,Thick eyebrows,Round eyes,Pointed nose,Full lips,Full beard
+000091.png,Ananya Kumar,35,Assault,Mangaluru,Female,Tan,Narrow face,Wavy hair,Bushy eyebrows,Almond eyes,Hooked nose,Wide mouth,Clean shaven
+000092.png,Kavya Gowda,23,Theft,Belagavi,Female,Tan,Narrow face,Bald,Thin eyebrows,Small eyes,Button nose,Thin lips,Stubble
+000093.png,Vikram Reddy,52,Smuggling,Belagavi,Male,Olive,Square face,Long straight hair,Straight eyebrows,Large eyes,Button nose,Wide mouth,Goatee
+000094.png,Sneha Yadav,21,Fraud,Tumakuru,Female,Tan,Heart-shaped face,Short straight hair,Thick eyebrows,Large eyes,Flat nose,Thin lips,Full beard
+000095.png,Divya Gowda,37,Theft,Mysuru,Female,Very fair,Heart-shaped face,Curly hair,Arched eyebrows,Round eyes,Pointed nose,Full lips,Stubble
+000096.png,Meera Nair,47,Fraud,Mangaluru,Female,Dark brown,Oval face,Long straight hair,Thick eyebrows,Large eyes,Button nose,Full lips,Clean shaven
+000097.png,Rahul Patel,53,Fraud,Belagavi,Male,Deep brown,Oval face,Crew cut,Bushy eyebrows,Narrow eyes,Flat nose,Full lips,Mustache
+000098.png,Arjun Yadav,30,Fraud,Tumakuru,Male,Deep brown,Narrow face,Curly hair,Arched eyebrows,Almond eyes,Broad nose,Pouty lips,Goatee
+000099.png,Priya Gowda,61,Smuggling,Mysuru,Female,Black,Heart-shaped face,Wavy hair,Thick eyebrows,Deep-set eyes,Button nose,Pouty lips,Full beard
+000100.png,Prakash Kumar,49,Theft,Mangaluru,Male,Dark brown,Heart-shaped face,Crew cut,Arched eyebrows,Round eyes,Button nose,Pouty lips,Clean shaven
+000101.png,Ananya Patel,38,Theft,Tumakuru,Female,Light brown,Heart-shaped face,Crew cut,Arched eyebrows,Round eyes,Hooked nose,Small mouth,Mustache
+000102.png,Rahul Nair,19,Burglary,Hubli,Male,Dark brown,Heart-shaped face,Long straight hair,Arched eyebrows,Almond eyes,Flat nose,Small mouth,Goatee
+000103.png,Sneha Kumar,40,Smuggling,Dharwad,Female,Fair,Long face,Crew cut,Straight eyebrows,Deep-set eyes,Pointed nose,Small mouth,Clean shaven
+000104.png,Nikhil Sharma,44,Fraud,Belagavi,Male,Black,Wide face,Curly hair,Straight eyebrows,Small eyes,Button nose,Wide mouth,Mustache
+000105.png,Nikhil Sharma,47,Theft,Belagavi,Male,Black,Round face,Crew cut,Bushy eyebrows,Almond eyes,Pointed nose,Pouty lips,Mustache
+000106.png,Prakash Nair,26,Fraud,Belagavi,Male,Tan,Wide face,Long straight hair,Arched eyebrows,Almond eyes,Hooked nose,Small mouth,Mustache
+000107.png,Suresh Nair,21,Smuggling,Mangaluru,Male,Medium brown,Square face,Wavy hair,Arched eyebrows,Round eyes,Flat nose,Pouty lips,Clean shaven
+000108.png,Kavya Nair,59,Forgery,Tumakuru,Female,Tan,Round face,Curly hair,Bushy eyebrows,Almond eyes,Button nose,Pouty lips,Mustache
+000109.png,Suresh Yadav,30,Theft,Mangaluru,Male,Medium brown,Wide face,Bald,Thick eyebrows,Round eyes,Flat nose,Full lips,Thick mustache
+000110.png,Arjun Kumar,53,Smuggling,Mangaluru,Male,Black,Narrow face,Crew cut,Bushy eyebrows,Large eyes,Hooked nose,Full lips,Goatee
+000111.png,Kavya Kumar,63,Fraud,Mysuru,Female,Very fair,Heart-shaped face,Wavy hair,Thick eyebrows,Deep-set eyes,Broad nose,Wide mouth,Clean shaven
+000112.png,Sneha Sharma,56,Smuggling,Dharwad,Female,Black,Round face,Long straight hair,Bushy eyebrows,Small eyes,Button nose,Pouty lips,Goatee
+000113.png,Ananya Nair,26,Burglary,Belagavi,Female,Medium brown,Wide face,Afro,Arched eyebrows,Deep-set eyes,Pointed nose,Full lips,Thick mustache
+000114.png,Prakash Nair,52,Fraud,Mangaluru,Male,Black,Long face,Bald,Thick eyebrows,Small eyes,Flat nose,Small mouth,Thick mustache
+000115.png,Ananya Patel,23,Smuggling,Hubli,Female,Very fair,Long face,Short straight hair,Thick eyebrows,Small eyes,Button nose,Small mouth,Thick mustache
+000116.png,Priya Sharma,28,Smuggling,Belagavi,Female,Dark brown,Square face,Afro,Straight eyebrows,Round eyes,Flat nose,Full lips,Stubble
+000117.png,Kavya Reddy,40,Forgery,Belagavi,Female,Medium brown,Oval face,Wavy hair,Thin eyebrows,Large eyes,Hooked nose,Small mouth,Stubble
+000118.png,Sneha Gowda,22,Smuggling,Dharwad,Female,Medium brown,Long face,Long straight hair,Straight eyebrows,Round eyes,Hooked nose,Full lips,Mustache
+000119.png,Priya Kumar,40,Smuggling,Tumakuru,Female,Very fair,Square face,Bald,Arched eyebrows,Large eyes,Hooked nose,Small mouth,Stubble
+000120.png,Meera Reddy,60,Assault,Mysuru,Female,Fair,Long face,Long straight hair,Straight eyebrows,Narrow eyes,Hooked nose,Small mouth,Thick mustache
+000121.png,Priya Gowda,54,Smuggling,Mysuru,Female,Fair,Heart-shaped face,Afro,Straight eyebrows,Narrow eyes,Pointed nose,Full lips,Clean shaven
+000122.png,Priya Nair,54,Smuggling,Tumakuru,Female,Black,Heart-shaped face,Afro,Bushy eyebrows,Narrow eyes,Broad nose,Full lips,Goatee
+000123.png,Nikhil Reddy,27,Smuggling,Hubli,Male,Tan,Oval face,Afro,Bushy eyebrows,Round eyes,Button nose,Full lips,Thick mustache
+000124.png,Sneha Patel,47,Smuggling,Belagavi,Female,Very fair,Square face,Curly hair,Straight eyebrows,Small eyes,Button nose,Full lips,Clean shaven
+000125.png,Suresh Yadav,45,Fraud,Belagavi,Male,Fair,Long face,Long straight hair,Thick eyebrows,Deep-set eyes,Broad nose,Small mouth,Clean shaven
+000126.png,Sneha Gowda,50,Assault,Hubli,Female,Olive,Wide face,Wavy hair,Bushy eyebrows,Narrow eyes,Pointed nose,Thin lips,Stubble
+000127.png,Ananya Yadav,61,Assault,Tumakuru,Female,Fair,Wide face,Wavy hair,Thick eyebrows,Large eyes,Button nose,Thin lips,Goatee
+000128.png,Priya Reddy,46,Smuggling,Mysuru,Female,Tan,Narrow face,Curly hair,Straight eyebrows,Small eyes,Button nose,Pouty lips,Mustache
+000129.png,Arjun Nair,58,Theft,Mangaluru,Male,Medium brown,Heart-shaped face,Short straight hair,Bushy eyebrows,Small eyes,Flat nose,Full lips,Clean shaven
+000130.png,Vikram Yadav,43,Fraud,Dharwad,Male,Light brown,Narrow face,Curly hair,Bushy eyebrows,Deep-set eyes,Button nose,Small mouth,Full beard
+000131.png,Suresh Gowda,62,Forgery,Dharwad,Male,Olive,Square face,Wavy hair,Thin eyebrows,Deep-set eyes,Pointed nose,Thin lips,Clean shaven
+000132.png,Meera Patel,63,Burglary,Belagavi,Female,Fair,Heart-shaped face,Long straight hair,Straight eyebrows,Large eyes,Pointed nose,Thin lips,Stubble
+000133.png,Rahul Reddy,48,Theft,Dharwad,Male,Deep brown,Narrow face,Crew cut,Straight eyebrows,Round eyes,Button nose,Thin lips,Goatee
+000134.png,Priya Kumar,35,Burglary,Hubli,Female,Medium brown,Narrow face,Crew cut,Thin eyebrows,Narrow eyes,Hooked nose,Small mouth,Mustache
+000135.png,Nikhil Reddy,21,Fraud,Belagavi,Male,Black,Round face,Short straight hair,Bushy eyebrows,Almond eyes,Button nose,Pouty lips,Mustache
+000136.png,Sneha Nair,43,Burglary,Tumakuru,Female,Deep brown,Narrow face,Afro,Arched eyebrows,Small eyes,Flat nose,Small mouth,Full beard
+000137.png,Prakash Sharma,32,Fraud,Mysuru,Male,Deep brown,Narrow face,Long straight hair,Bushy eyebrows,Narrow eyes,Broad nose,Thin lips,Clean shaven
+000138.png,Vikram Reddy,29,Burglary,Belagavi,Male,Black,Narrow face,Long straight hair,Thin eyebrows,Small eyes,Button nose,Thin lips,Stubble
+000139.png,Rahul Gowda,32,Burglary,Belagavi,Male,Tan,Round face,Bald,Arched eyebrows,Small eyes,Pointed nose,Small mouth,Thick mustache
+000140.png,Arjun Yadav,50,Smuggling,Tumakuru,Male,Very fair,Square face,Wavy hair,Thick eyebrows,Deep-set eyes,Hooked nose,Thin lips,Clean shaven
+000141.png,Meera Nair,44,Smuggling,Belagavi,Female,Olive,Square face,Afro,Straight eyebrows,Narrow eyes,Pointed nose,Wide mouth,Mustache
+000142.png,Nikhil Patel,62,Assault,Mysuru,Male,Very fair,Long face,Bald,Bushy eyebrows,Deep-set eyes,Flat nose,Thin lips,Stubble
+000143.png,Arjun Reddy,52,Forgery,Dharwad,Male,Light brown,Round face,Short straight hair,Bushy eyebrows,Small eyes,Pointed nose,Small mouth,Stubble
+000144.png,Vikram Gowda,63,Smuggling,Belagavi,Male,Olive,Oval face,Curly hair,Straight eyebrows,Large eyes,Button nose,Thin lips,Thick mustache
+000145.png,Nikhil Kumar,41,Smuggling,Hubli,Male,Black,Round face,Afro,Thin eyebrows,Narrow eyes,Hooked nose,Pouty lips,Mustache
+000146.png,Vikram Kumar,58,Forgery,Belagavi,Male,Black,Wide face,Short straight hair,Arched eyebrows,Almond eyes,Pointed nose,Small mouth,Mustache
+000147.png,Nikhil Kumar,59,Forgery,Mysuru,Male,Olive,Square face,Bald,Straight eyebrows,Almond eyes,Flat nose,Small mouth,Full beard
+000148.png,Prakash Gowda,23,Fraud,Tumakuru,Male,Medium brown,Square face,Long straight hair,Arched eyebrows,Small eyes,Flat nose,Wide mouth,Goatee
+000149.png,Divya Patel,45,Smuggling,Dharwad,Female,Medium brown,Round face,Bald,Bushy eyebrows,Round eyes,Button nose,Pouty lips,Mustache
+000150.png,Vikram Kumar,51,Fraud,Tumakuru,Male,Fair,Square face,Wavy hair,Bushy eyebrows,Small eyes,Flat nose,Small mouth,Goatee
+000151.png,Ananya Kumar,28,Assault,Dharwad,Female,Medium brown,Round face,Bald,Bushy eyebrows,Small eyes,Hooked nose,Full lips,Clean shaven
+000152.png,Arjun Patel,35,Theft,Tumakuru,Male,Medium brown,Oval face,Long straight hair,Arched eyebrows,Almond eyes,Broad nose,Thin lips,Full beard
+000153.png,Nikhil Sharma,43,Smuggling,Dharwad,Male,Black,Long face,Afro,Straight eyebrows,Small eyes,Hooked nose,Wide mouth,Clean shaven
+000154.png,Divya Patel,18,Smuggling,Mangaluru,Female,Fair,Round face,Crew cut,Arched eyebrows,Almond eyes,Flat nose,Full lips,Goatee
+000155.png,Priya Yadav,55,Burglary,Mysuru,Female,Black,Heart-shaped face,Curly hair,Arched eyebrows,Round eyes,Button nose,Small mouth,Goatee
+000156.png,Meera Nair,28,Fraud,Tumakuru,Female,Very fair,Square face,Crew cut,Thick eyebrows,Small eyes,Hooked nose,Full lips,Mustache
+000157.png,Ananya Nair,63,Theft,Hubli,Female,Light brown,Wide face,Afro,Straight eyebrows,Small eyes,Flat nose,Thin lips,Thick mustache
+000158.png,Arjun Reddy,42,Assault,Dharwad,Male,Light brown,Long face,Long straight hair,Thin eyebrows,Small eyes,Pointed nose,Pouty lips,Stubble
+000159.png,Arjun Kumar,57,Burglary,Belagavi,Male,Light brown,Heart-shaped face,Short straight hair,Arched eyebrows,Narrow eyes,Pointed nose,Pouty lips,Thick mustache
+000160.png,Divya Yadav,33,Smuggling,Belagavi,Female,Black,Oval face,Long straight hair,Bushy eyebrows,Large eyes,Hooked nose,Pouty lips,Mustache
+000161.png,Kavya Patel,47,Theft,Belagavi,Female,Deep brown,Long face,Bald,Straight eyebrows,Large eyes,Flat nose,Wide mouth,Clean shaven
+000162.png,Meera Reddy,20,Forgery,Hubli,Female,Tan,Round face,Afro,Thin eyebrows,Deep-set eyes,Pointed nose,Full lips,Thick mustache
+000163.png,Rahul Nair,61,Forgery,Mangaluru,Male,Deep brown,Heart-shaped face,Long straight hair,Thin eyebrows,Round eyes,Hooked nose,Thin lips,Stubble
+000164.png,Prakash Yadav,45,Fraud,Mangaluru,Male,Black,Long face,Curly hair,Bushy eyebrows,Narrow eyes,Broad nose,Wide mouth,Thick mustache
+000165.png,Nikhil Reddy,26,Fraud,Belagavi,Male,Very fair,Square face,Afro,Arched eyebrows,Narrow eyes,Flat nose,Thin lips,Clean shaven
+000166.png,Prakash Nair,50,Forgery,Tumakuru,Male,Light brown,Narrow face,Long straight hair,Straight eyebrows,Round eyes,Button nose,Full lips,Mustache
+000167.png,Divya Patel,56,Burglary,Mangaluru,Female,Olive,Oval face,Afro,Thick eyebrows,Round eyes,Hooked nose,Thin lips,Full beard
+000168.png,Meera Patel,44,Fraud,Dharwad,Female,Deep brown,Wide face,Long straight hair,Straight eyebrows,Almond eyes,Broad nose,Small mouth,Full beard
+000169.png,Suresh Kumar,42,Burglary,Dharwad,Male,Deep brown,Heart-shaped face,Afro,Thin eyebrows,Narrow eyes,Button nose,Small mouth,Clean shaven
+000170.png,Arjun Reddy,59,Burglary,Hubli,Male,Light brown,Square face,Curly hair,Bushy eyebrows,Large eyes,Broad nose,Thin lips,Full beard
+000171.png,Vikram Nair,23,Burglary,Belagavi,Male,Black,Round face,Wavy hair,Bushy eyebrows,Small eyes,Pointed nose,Small mouth,Stubble
+000172.png,Sneha Patel,56,Burglary,Hubli,Female,Fair,Round face,Bald,Arched eyebrows,Deep-set eyes,Broad nose,Pouty lips,Full beard
+000173.png,Suresh Gowda,42,Smuggling,Mysuru,Male,Very fair,Square face,Short straight hair,Thin eyebrows,Small eyes,Pointed nose,Pouty lips,Goatee
+000174.png,Meera Kumar,44,Fraud,Mysuru,Female,Very fair,Heart-shaped face,Wavy hair,Arched eyebrows,Almond eyes,Pointed nose,Full lips,Thick mustache
+000175.png,Suresh Patel,43,Smuggling,Mysuru,Male,Fair,Square face,Crew cut,Bushy eyebrows,Round eyes,Button nose,Wide mouth,Mustache
+000176.png,Nikhil Yadav,64,Assault,Mysuru,Male,Light brown,Square face,Short straight hair,Thick eyebrows,Large eyes,Broad nose,Thin lips,Full beard
+000177.png,Kavya Patel,52,Burglary,Mysuru,Female,Olive,Narrow face,Curly hair,Thin eyebrows,Almond eyes,Flat nose,Small mouth,Stubble
+000178.png,Prakash Kumar,61,Assault,Hubli,Male,Dark brown,Wide face,Afro,Straight eyebrows,Deep-set eyes,Flat nose,Wide mouth,Mustache
+000179.png,Suresh Patel,62,Burglary,Dharwad,Male,Dark brown,Narrow face,Crew cut,Thick eyebrows,Large eyes,Broad nose,Thin lips,Mustache
+000180.png,Priya Reddy,57,Smuggling,Mysuru,Female,Tan,Heart-shaped face,Bald,Straight eyebrows,Round eyes,Hooked nose,Pouty lips,Thick mustache
+000181.png,Rahul Yadav,49,Fraud,Belagavi,Male,Olive,Round face,Wavy hair,Thin eyebrows,Round eyes,Flat nose,Thin lips,Mustache
+000182.png,Suresh Nair,41,Burglary,Hubli,Male,Black,Round face,Wavy hair,Bushy eyebrows,Small eyes,Pointed nose,Pouty lips,Clean shaven
+000183.png,Arjun Patel,30,Burglary,Hubli,Male,Dark brown,Wide face,Afro,Arched eyebrows,Almond eyes,Pointed nose,Pouty lips,Full beard
+000184.png,Priya Kumar,31,Assault,Mangaluru,Female,Tan,Wide face,Curly hair,Bushy eyebrows,Small eyes,Broad nose,Full lips,Full beard
+000185.png,Divya Yadav,56,Forgery,Mysuru,Female,Dark brown,Long face,Afro,Straight eyebrows,Round eyes,Hooked nose,Wide mouth,Clean shaven
+000186.png,Rahul Yadav,43,Smuggling,Mangaluru,Male,Dark brown,Round face,Wavy hair,Arched eyebrows,Round eyes,Flat nose,Wide mouth,Full beard
+000187.png,Suresh Yadav,31,Burglary,Belagavi,Male,Medium brown,Long face,Curly hair,Straight eyebrows,Narrow eyes,Button nose,Full lips,Full beard
+000188.png,Arjun Patel,42,Smuggling,Mysuru,Male,Medium brown,Round face,Bald,Thick eyebrows,Small eyes,Broad nose,Full lips,Goatee
+000189.png,Kavya Yadav,22,Fraud,Mangaluru,Female,Dark brown,Long face,Curly hair,Straight eyebrows,Narrow eyes,Broad nose,Full lips,Thick mustache
+000190.png,Prakash Yadav,40,Smuggling,Tumakuru,Male,Fair,Wide face,Crew cut,Thick eyebrows,Deep-set eyes,Broad nose,Full lips,Stubble
+000191.png,Meera Reddy,57,Forgery,Dharwad,Female,Light brown,Narrow face,Bald,Arched eyebrows,Almond eyes,Hooked nose,Pouty lips,Clean shaven
+000192.png,Vikram Nair,38,Theft,Hubli,Male,Dark brown,Oval face,Afro,Bushy eyebrows,Deep-set eyes,Hooked nose,Wide mouth,Goatee
+000193.png,Ananya Nair,56,Smuggling,Mysuru,Female,Light brown,Long face,Curly hair,Arched eyebrows,Almond eyes,Pointed nose,Pouty lips,Clean shaven
+000194.png,Priya Reddy,23,Smuggling,Belagavi,Female,Medium brown,Heart-shaped face,Wavy hair,Arched eyebrows,Deep-set eyes,Flat nose,Small mouth,Mustache
+000195.png,Divya Reddy,53,Smuggling,Dharwad,Female,Very fair,Wide face,Bald,Thin eyebrows,Deep-set eyes,Pointed nose,Wide mouth,Stubble
+000196.png,Sneha Kumar,32,Burglary,Belagavi,Female,Tan,Narrow face,Afro,Arched eyebrows,Round eyes,Button nose,Wide mouth,Mustache
+000197.png,Nikhil Sharma,38,Burglary,Tumakuru,Male,Dark brown,Square face,Bald,Thick eyebrows,Almond eyes,Flat nose,Small mouth,Clean shaven
+000198.png,Vikram Nair,26,Theft,Mangaluru,Male,Olive,Narrow face,Short straight hair,Straight eyebrows,Narrow eyes,Flat nose,Thin lips,Clean shaven
+000199.png,Rahul Patel,48,Forgery,Mysuru,Male,Fair,Round face,Curly hair,Thick eyebrows,Large eyes,Button nose,Full lips,Goatee
+000200.png,Priya Patel,45,Burglary,Mangaluru,Female,Very fair,Round face,Crew cut,Bushy eyebrows,Narrow eyes,Flat nose,Small mouth,Goatee
+000201.png,Kavya Patel,39,Assault,Hubli,Female,Fair,Long face,Crew cut,Bushy eyebrows,Almond eyes,Broad nose,Full lips,Mustache
+000202.png,Sneha Gowda,45,Forgery,Mysuru,Female,Dark brown,Oval face,Crew cut,Arched eyebrows,Small eyes,Button nose,Thin lips,Clean shaven
+000203.png,Divya Sharma,34,Forgery,Hubli,Female,Dark brown,Oval face,Crew cut,Thick eyebrows,Large eyes,Pointed nose,Full lips,Stubble
+000204.png,Meera Nair,37,Burglary,Mysuru,Female,Olive,Oval face,Wavy hair,Thick eyebrows,Round eyes,Broad nose,Full lips,Clean shaven
+000205.png,Rahul Yadav,33,Smuggling,Dharwad,Male,Fair,Wide face,Short straight hair,Thick eyebrows,Round eyes,Broad nose,Wide mouth,Thick mustache
+000206.png,Meera Reddy,36,Fraud,Hubli,Female,Olive,Square face,Wavy hair,Bushy eyebrows,Deep-set eyes,Flat nose,Full lips,Clean shaven
+000207.png,Vikram Reddy,26,Burglary,Dharwad,Male,Deep brown,Oval face,Long straight hair,Straight eyebrows,Deep-set eyes,Hooked nose,Small mouth,Stubble
+000208.png,Prakash Reddy,53,Forgery,Belagavi,Male,Very fair,Wide face,Afro,Arched eyebrows,Deep-set eyes,Button nose,Wide mouth,Mustache
+000209.png,Ananya Gowda,31,Assault,Hubli,Female,Olive,Oval face,Afro,Bushy eyebrows,Large eyes,Flat nose,Thin lips,Goatee
+000210.png,Vikram Gowda,33,Theft,Tumakuru,Male,Fair,Narrow face,Short straight hair,Straight eyebrows,Narrow eyes,Hooked nose,Full lips,Goatee
+000211.png,Ananya Yadav,35,Forgery,Mangaluru,Female,Deep brown,Wide face,Long straight hair,Bushy eyebrows,Deep-set eyes,Flat nose,Small mouth,Clean shaven
+000212.png,Arjun Nair,34,Forgery,Dharwad,Male,Light brown,Wide face,Bald,Bushy eyebrows,Round eyes,Flat nose,Full lips,Goatee
+000213.png,Vikram Yadav,65,Theft,Dharwad,Male,Black,Heart-shaped face,Long straight hair,Bushy eyebrows,Round eyes,Broad nose,Small mouth,Stubble
+000214.png,Vikram Nair,37,Fraud,Mangaluru,Male,Dark brown,Long face,Long straight hair,Thin eyebrows,Small eyes,Flat nose,Thin lips,Goatee
+000215.png,Suresh Gowda,54,Smuggling,Mysuru,Male,Fair,Square face,Crew cut,Straight eyebrows,Large eyes,Pointed nose,Wide mouth,Mustache
+000216.png,Vikram Reddy,49,Smuggling,Mangaluru,Male,Fair,Round face,Crew cut,Bushy eyebrows,Round eyes,Pointed nose,Pouty lips,Clean shaven
+000217.png,Rahul Nair,34,Assault,Mysuru,Male,Olive,Oval face,Curly hair,Thin eyebrows,Small eyes,Button nose,Small mouth,Goatee
+000218.png,Priya Gowda,53,Burglary,Belagavi,Female,Fair,Narrow face,Crew cut,Straight eyebrows,Almond eyes,Flat nose,Thin lips,Stubble
+000219.png,Nikhil Sharma,39,Forgery,Hubli,Male,Fair,Narrow face,Wavy hair,Arched eyebrows,Large eyes,Flat nose,Pouty lips,Full beard
+000220.png,Sneha Sharma,32,Assault,Mysuru,Female,Black,Wide face,Short straight hair,Bushy eyebrows,Small eyes,Pointed nose,Small mouth,Thick mustache
+000221.png,Divya Patel,38,Assault,Dharwad,Female,Deep brown,Narrow face,Bald,Bushy eyebrows,Narrow eyes,Flat nose,Full lips,Mustache
+000222.png,Vikram Kumar,42,Fraud,Dharwad,Male,Olive,Round face,Bald,Bushy eyebrows,Small eyes,Flat nose,Small mouth,Stubble
+000223.png,Suresh Gowda,57,Smuggling,Hubli,Male,Black,Long face,Wavy hair,Arched eyebrows,Large eyes,Broad nose,Small mouth,Stubble
+000224.png,Priya Patel,26,Theft,Mangaluru,Female,Very fair,Square face,Crew cut,Thin eyebrows,Deep-set eyes,Button nose,Thin lips,Thick mustache
+000225.png,Sneha Yadav,64,Burglary,Belagavi,Female,Light brown,Oval face,Wavy hair,Straight eyebrows,Small eyes,Flat nose,Pouty lips,Mustache
+000226.png,Kavya Gowda,42,Burglary,Dharwad,Female,Fair,Heart-shaped face,Curly hair,Straight eyebrows,Small eyes,Pointed nose,Small mouth,Goatee
+000227.png,Suresh Gowda,50,Smuggling,Hubli,Male,Light brown,Square face,Wavy hair,Bushy eyebrows,Narrow eyes,Broad nose,Full lips,Stubble
+000228.png,Suresh Gowda,38,Assault,Dharwad,Male,Dark brown,Long face,Short straight hair,Straight eyebrows,Deep-set eyes,Flat nose,Small mouth,Clean shaven
+000229.png,Ananya Sharma,30,Smuggling,Tumakuru,Female,Olive,Square face,Afro,Thin eyebrows,Narrow eyes,Hooked nose,Wide mouth,Mustache
+000230.png,Priya Kumar,24,Theft,Dharwad,Female,Very fair,Wide face,Curly hair,Straight eyebrows,Narrow eyes,Pointed nose,Small mouth,Goatee
+000231.png,Meera Nair,33,Smuggling,Belagavi,Female,Light brown,Heart-shaped face,Afro,Thin eyebrows,Small eyes,Broad nose,Pouty lips,Clean shaven
+000232.png,Sneha Gowda,55,Fraud,Mangaluru,Female,Olive,Oval face,Bald,Thick eyebrows,Round eyes,Button nose,Pouty lips,Mustache
+000233.png,Divya Gowda,37,Theft,Belagavi,Female,Dark brown,Round face,Afro,Bushy eyebrows,Round eyes,Hooked nose,Wide mouth,Full beard
+000234.png,Vikram Yadav,36,Fraud,Tumakuru,Male,Fair,Round face,Afro,Bushy eyebrows,Narrow eyes,Broad nose,Small mouth,Goatee
+000235.png,Meera Sharma,32,Theft,Tumakuru,Female,Light brown,Oval face,Crew cut,Arched eyebrows,Deep-set eyes,Hooked nose,Wide mouth,Clean shaven
+000236.png,Arjun Nair,38,Theft,Dharwad,Male,Very fair,Long face,Long straight hair,Thin eyebrows,Large eyes,Pointed nose,Full lips,Stubble
+000237.png,Nikhil Patel,61,Fraud,Belagavi,Male,Medium brown,Long face,Curly hair,Arched eyebrows,Large eyes,Flat nose,Wide mouth,Stubble
+000238.png,Priya Reddy,63,Theft,Hubli,Female,Olive,Round face,Wavy hair,Arched eyebrows,Almond eyes,Flat nose,Pouty lips,Goatee
+000239.png,Priya Sharma,40,Fraud,Belagavi,Female,Very fair,Wide face,Crew cut,Thin eyebrows,Round eyes,Broad nose,Pouty lips,Full beard
+000240.png,Vikram Patel,54,Assault,Mangaluru,Male,Olive,Narrow face,Crew cut,Thin eyebrows,Almond eyes,Flat nose,Wide mouth,Full beard
+000241.png,Ananya Patel,44,Forgery,Mangaluru,Female,Fair,Round face,Curly hair,Bushy eyebrows,Almond eyes,Hooked nose,Full lips,Goatee
+000242.png,Ananya Yadav,35,Forgery,Dharwad,Female,Medium brown,Heart-shaped face,Curly hair,Thin eyebrows,Round eyes,Hooked nose,Full lips,Mustache
+000243.png,Suresh Yadav,18,Burglary,Belagavi,Male,Olive,Wide face,Short straight hair,Thick eyebrows,Narrow eyes,Pointed nose,Pouty lips,Clean shaven
+000244.png,Sneha Yadav,31,Theft,Tumakuru,Female,Tan,Narrow face,Crew cut,Thin eyebrows,Small eyes,Button nose,Pouty lips,Mustache
+000245.png,Rahul Yadav,52,Theft,Hubli,Male,Black,Heart-shaped face,Short straight hair,Thick eyebrows,Almond eyes,Broad nose,Thin lips,Stubble
+000246.png,Meera Sharma,64,Assault,Hubli,Female,Very fair,Round face,Curly hair,Bushy eyebrows,Large eyes,Hooked nose,Small mouth,Stubble
+000247.png,Sneha Yadav,46,Forgery,Belagavi,Female,Black,Wide face,Crew cut,Thin eyebrows,Round eyes,Broad nose,Thin lips,Stubble
+000248.png,Sneha Reddy,33,Assault,Dharwad,Female,Light brown,Narrow face,Long straight hair,Bushy eyebrows,Deep-set eyes,Hooked nose,Pouty lips,Clean shaven
+000249.png,Nikhil Kumar,59,Smuggling,Dharwad,Male,Deep brown,Square face,Curly hair,Thick eyebrows,Large eyes,Pointed nose,Thin lips,Thick mustache
+000250.png,Vikram Gowda,51,Forgery,Hubli,Male,Fair,Long face,Crew cut,Thick eyebrows,Round eyes,Hooked nose,Thin lips,Full beard
+000251.png,Divya Reddy,19,Smuggling,Mysuru,Female,Tan,Square face,Long straight hair,Bushy eyebrows,Small eyes,Button nose,Small mouth,Mustache
+000252.png,Vikram Reddy,20,Fraud,Hubli,Male,Deep brown,Wide face,Short straight hair,Thick eyebrows,Small eyes,Broad nose,Pouty lips,Clean shaven
+000253.png,Meera Yadav,43,Smuggling,Dharwad,Female,Deep brown,Square face,Bald,Bushy eyebrows,Large eyes,Flat nose,Small mouth,Clean shaven
+000254.png,Priya Gowda,30,Assault,Mysuru,Female,Tan,Square face,Afro,Bushy eyebrows,Almond eyes,Flat nose,Pouty lips,Stubble
+000255.png,Kavya Nair,61,Burglary,Tumakuru,Female,Black,Square face,Afro,Bushy eyebrows,Round eyes,Flat nose,Wide mouth,Goatee
+000256.png,Prakash Nair,31,Burglary,Mangaluru,Male,Medium brown,Narrow face,Short straight hair,Thick eyebrows,Round eyes,Pointed nose,Full lips,Clean shaven
+000257.png,Meera Nair,58,Smuggling,Dharwad,Female,Black,Narrow face,Long straight hair,Arched eyebrows,Small eyes,Flat nose,Wide mouth,Clean shaven
+000258.png,Meera Gowda,53,Assault,Mangaluru,Female,Fair,Square face,Crew cut,Thin eyebrows,Deep-set eyes,Hooked nose,Thin lips,Stubble
+000259.png,Suresh Yadav,46,Theft,Mysuru,Male,Black,Round face,Curly hair,Straight eyebrows,Large eyes,Broad nose,Wide mouth,Goatee
+000260.png,Nikhil Patel,55,Burglary,Mangaluru,Male,Very fair,Heart-shaped face,Crew cut,Arched eyebrows,Large eyes,Broad nose,Pouty lips,Goatee
+000261.png,Kavya Sharma,43,Forgery,Dharwad,Female,Black,Narrow face,Wavy hair,Straight eyebrows,Almond eyes,Hooked nose,Wide mouth,Stubble
+000262.png,Sneha Sharma,53,Theft,Dharwad,Female,Dark brown,Square face,Wavy hair,Arched eyebrows,Round eyes,Pointed nose,Thin lips,Thick mustache
+000263.png,Divya Kumar,63,Fraud,Tumakuru,Female,Fair,Square face,Short straight hair,Arched eyebrows,Large eyes,Broad nose,Wide mouth,Full beard
+000264.png,Meera Nair,36,Fraud,Mysuru,Female,Olive,Narrow face,Short straight hair,Bushy eyebrows,Deep-set eyes,Pointed nose,Small mouth,Clean shaven
+000265.png,Ananya Nair,37,Fraud,Mysuru,Female,Dark brown,Square face,Short straight hair,Thin eyebrows,Large eyes,Pointed nose,Thin lips,Full beard
+000266.png,Priya Kumar,39,Smuggling,Tumakuru,Female,Light brown,Long face,Curly hair,Arched eyebrows,Large eyes,Pointed nose,Small mouth,Full beard
+000267.png,Nikhil Sharma,29,Burglary,Hubli,Male,Very fair,Narrow face,Bald,Bushy eyebrows,Narrow eyes,Pointed nose,Pouty lips,Stubble
+000268.png,Sneha Reddy,52,Theft,Mysuru,Female,Tan,Wide face,Wavy hair,Bushy eyebrows,Round eyes,Broad nose,Thin lips,Thick mustache
+000269.png,Divya Nair,40,Assault,Tumakuru,Female,Olive,Wide face,Bald,Thin eyebrows,Round eyes,Broad nose,Small mouth,Stubble
+000270.png,Divya Nair,62,Fraud,Hubli,Female,Tan,Long face,Curly hair,Straight eyebrows,Deep-set eyes,Broad nose,Small mouth,Thick mustache
+000271.png,Ananya Nair,23,Burglary,Mysuru,Female,Fair,Round face,Afro,Arched eyebrows,Almond eyes,Button nose,Wide mouth,Goatee
+000272.png,Arjun Kumar,58,Theft,Mangaluru,Male,Light brown,Narrow face,Afro,Thin eyebrows,Round eyes,Button nose,Full lips,Goatee
+000273.png,Nikhil Patel,41,Theft,Mysuru,Male,Medium brown,Oval face,Curly hair,Straight eyebrows,Large eyes,Broad nose,Thin lips,Goatee
+000274.png,Sneha Sharma,65,Fraud,Tumakuru,Female,Black,Heart-shaped face,Short straight hair,Arched eyebrows,Narrow eyes,Flat nose,Full lips,Thick mustache
+000275.png,Divya Gowda,46,Theft,Dharwad,Female,Light brown,Heart-shaped face,Wavy hair,Bushy eyebrows,Almond eyes,Broad nose,Small mouth,Mustache
+000276.png,Vikram Nair,30,Forgery,Tumakuru,Male,Light brown,Round face,Curly hair,Straight eyebrows,Small eyes,Broad nose,Thin lips,Goatee
+000277.png,Rahul Patel,47,Smuggling,Hubli,Male,Deep brown,Wide face,Wavy hair,Straight eyebrows,Deep-set eyes,Flat nose,Wide mouth,Stubble
+000278.png,Meera Yadav,20,Forgery,Dharwad,Female,Medium brown,Long face,Wavy hair,Thin eyebrows,Small eyes,Pointed nose,Full lips,Clean shaven
+000279.png,Nikhil Gowda,30,Forgery,Hubli,Male,Olive,Square face,Afro,Thick eyebrows,Round eyes,Button nose,Pouty lips,Mustache
+000280.png,Divya Gowda,36,Theft,Hubli,Female,Dark brown,Wide face,Curly hair,Arched eyebrows,Small eyes,Broad nose,Thin lips,Thick mustache
+000281.png,Sneha Yadav,36,Forgery,Mangaluru,Female,Deep brown,Heart-shaped face,Crew cut,Thick eyebrows,Round eyes,Hooked nose,Pouty lips,Goatee
+000282.png,Vikram Yadav,58,Assault,Belagavi,Male,Medium brown,Oval face,Crew cut,Bushy eyebrows,Small eyes,Broad nose,Small mouth,Goatee
+000283.png,Rahul Reddy,46,Theft,Dharwad,Male,Very fair,Wide face,Bald,Straight eyebrows,Almond eyes,Broad nose,Pouty lips,Full beard
+000284.png,Arjun Nair,46,Assault,Belagavi,Male,Fair,Square face,Long straight hair,Thin eyebrows,Round eyes,Hooked nose,Small mouth,Mustache
+000285.png,Meera Gowda,62,Fraud,Hubli,Female,Medium brown,Long face,Bald,Arched eyebrows,Almond eyes,Hooked nose,Thin lips,Full beard
+000286.png,Prakash Yadav,65,Burglary,Dharwad,Male,Very fair,Square face,Long straight hair,Straight eyebrows,Small eyes,Flat nose,Thin lips,Stubble
+000287.png,Divya Kumar,58,Assault,Belagavi,Female,Deep brown,Round face,Crew cut,Thick eyebrows,Round eyes,Broad nose,Thin lips,Mustache
+000288.png,Vikram Kumar,54,Theft,Belagavi,Male,Fair,Long face,Long straight hair,Straight eyebrows,Large eyes,Flat nose,Thin lips,Goatee
+000289.png,Arjun Patel,36,Assault,Mysuru,Male,Light brown,Square face,Afro,Bushy eyebrows,Round eyes,Hooked nose,Full lips,Stubble
+000290.png,Priya Gowda,40,Theft,Hubli,Female,Fair,Oval face,Crew cut,Thin eyebrows,Small eyes,Pointed nose,Full lips,Full beard
+000291.png,Suresh Sharma,47,Forgery,Belagavi,Male,Olive,Wide face,Curly hair,Straight eyebrows,Large eyes,Pointed nose,Full lips,Stubble
+000292.png,Arjun Kumar,34,Assault,Dharwad,Male,Dark brown,Round face,Afro,Arched eyebrows,Almond eyes,Button nose,Thin lips,Thick mustache
+000293.png,Priya Kumar,20,Forgery,Mangaluru,Female,Dark brown,Round face,Long straight hair,Thick eyebrows,Round eyes,Pointed nose,Pouty lips,Full beard
+000294.png,Vikram Sharma,60,Forgery,Belagavi,Male,Black,Round face,Curly hair,Straight eyebrows,Small eyes,Pointed nose,Small mouth,Mustache
+000295.png,Vikram Yadav,51,Burglary,Mysuru,Male,Black,Heart-shaped face,Crew cut,Thick eyebrows,Small eyes,Flat nose,Thin lips,Thick mustache
+000296.png,Priya Sharma,47,Burglary,Tumakuru,Female,Light brown,Square face,Crew cut,Straight eyebrows,Deep-set eyes,Button nose,Full lips,Thick mustache
+000297.png,Ananya Yadav,47,Assault,Tumakuru,Female,Medium brown,Oval face,Curly hair,Bushy eyebrows,Deep-set eyes,Button nose,Small mouth,Thick mustache
+000298.png,Divya Kumar,31,Fraud,Dharwad,Female,Dark brown,Long face,Short straight hair,Thick eyebrows,Small eyes,Button nose,Small mouth,Thick mustache
+000299.png,Suresh Patel,18,Forgery,Mangaluru,Male,Black,Wide face,Crew cut,Thick eyebrows,Narrow eyes,Pointed nose,Wide mouth,Goatee
+000300.png,Meera Yadav,50,Fraud,Hubli,Female,Deep brown,Round face,Crew cut,Thick eyebrows,Narrow eyes,Hooked nose,Full lips,Goatee
+000301.png,Ananya Reddy,36,Burglary,Mangaluru,Female,Medium brown,Heart-shaped face,Afro,Thick eyebrows,Deep-set eyes,Button nose,Small mouth,Thick mustache
+000302.png,Arjun Sharma,45,Smuggling,Mangaluru,Male,Deep brown,Narrow face,Curly hair,Bushy eyebrows,Large eyes,Button nose,Small mouth,Mustache
+000303.png,Suresh Patel,25,Theft,Belagavi,Male,Dark brown,Heart-shaped face,Curly hair,Bushy eyebrows,Round eyes,Button nose,Pouty lips,Full beard
+000304.png,Sneha Sharma,25,Theft,Mysuru,Female,Dark brown,Long face,Wavy hair,Bushy eyebrows,Narrow eyes,Flat nose,Full lips,Clean shaven
+000305.png,Suresh Gowda,52,Theft,Hubli,Male,Olive,Round face,Afro,Arched eyebrows,Round eyes,Hooked nose,Wide mouth,Thick mustache
+000306.png,Arjun Reddy,61,Forgery,Mysuru,Male,Dark brown,Square face,Bald,Bushy eyebrows,Narrow eyes,Pointed nose,Pouty lips,Goatee
+000307.png,Rahul Sharma,61,Forgery,Mysuru,Male,Very fair,Square face,Bald,Bushy eyebrows,Almond eyes,Pointed nose,Wide mouth,Goatee
+000308.png,Prakash Nair,58,Burglary,Mysuru,Male,Very fair,Heart-shaped face,Short straight hair,Bushy eyebrows,Deep-set eyes,Pointed nose,Small mouth,Clean shaven
+000309.png,Nikhil Yadav,25,Theft,Dharwad,Male,Deep brown,Oval face,Short straight hair,Straight eyebrows,Small eyes,Pointed nose,Small mouth,Stubble
+000310.png,Prakash Kumar,64,Fraud,Belagavi,Male,Light brown,Heart-shaped face,Afro,Thick eyebrows,Large eyes,Hooked nose,Wide mouth,Goatee
+000311.png,Vikram Nair,25,Assault,Mangaluru,Male,Fair,Wide face,Curly hair,Thin eyebrows,Small eyes,Button nose,Full lips,Goatee
+000312.png,Ananya Yadav,57,Smuggling,Dharwad,Female,Olive,Round face,Long straight hair,Straight eyebrows,Narrow eyes,Pointed nose,Small mouth,Mustache
+000313.png,Sneha Yadav,63,Fraud,Dharwad,Female,Tan,Square face,Short straight hair,Thick eyebrows,Large eyes,Flat nose,Small mouth,Goatee
+000314.png,Prakash Reddy,36,Assault,Belagavi,Male,Olive,Long face,Long straight hair,Arched eyebrows,Small eyes,Hooked nose,Small mouth,Stubble
+000315.png,Sneha Reddy,29,Fraud,Hubli,Female,Deep brown,Heart-shaped face,Crew cut,Straight eyebrows,Small eyes,Pointed nose,Thin lips,Goatee
+000316.png,Divya Gowda,19,Smuggling,Dharwad,Female,Black,Long face,Short straight hair,Thin eyebrows,Large eyes,Pointed nose,Pouty lips,Mustache
+000317.png,Divya Yadav,60,Assault,Belagavi,Female,Very fair,Long face,Crew cut,Thin eyebrows,Round eyes,Pointed nose,Pouty lips,Stubble
+000318.png,Ananya Yadav,57,Forgery,Mysuru,Female,Dark brown,Long face,Crew cut,Thin eyebrows,Round eyes,Button nose,Small mouth,Clean shaven
+000319.png,Rahul Yadav,58,Assault,Hubli,Male,Olive,Heart-shaped face,Bald,Arched eyebrows,Small eyes,Pointed nose,Full lips,Full beard
+000320.png,Priya Reddy,58,Assault,Dharwad,Female,Black,Round face,Curly hair,Bushy eyebrows,Round eyes,Hooked nose,Full lips,Mustache
+000321.png,Nikhil Nair,25,Burglary,Dharwad,Male,Very fair,Long face,Bald,Arched eyebrows,Deep-set eyes,Hooked nose,Small mouth,Mustache
+000322.png,Sneha Reddy,59,Smuggling,Mysuru,Female,Olive,Oval face,Bald,Thick eyebrows,Large eyes,Button nose,Wide mouth,Thick mustache
+000323.png,Ananya Sharma,65,Assault,Mangaluru,Female,Black,Wide face,Curly hair,Bushy eyebrows,Large eyes,Flat nose,Thin lips,Mustache
+000324.png,Arjun Yadav,50,Assault,Dharwad,Male,Deep brown,Narrow face,Bald,Straight eyebrows,Large eyes,Button nose,Thin lips,Thick mustache
+000325.png,Ananya Nair,29,Burglary,Mysuru,Female,Medium brown,Oval face,Curly hair,Thick eyebrows,Large eyes,Pointed nose,Full lips,Clean shaven
+000326.png,Priya Reddy,51,Assault,Belagavi,Female,Light brown,Round face,Crew cut,Thin eyebrows,Almond eyes,Hooked nose,Small mouth,Goatee
+000327.png,Kavya Patel,29,Smuggling,Tumakuru,Female,Light brown,Square face,Crew cut,Bushy eyebrows,Small eyes,Hooked nose,Wide mouth,Thick mustache

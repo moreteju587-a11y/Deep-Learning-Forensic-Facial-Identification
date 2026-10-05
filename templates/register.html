@@ -1,0 +1,79 @@
+{% extends "layout.html" %}
+{% block title %}Register{% endblock %}
+
+{% block content %}
+<div class="auth-shell">
+    <div class="glass auth-card">
+        <img src="{{ url_for('static', filename='images/logo-nav.png') }}" alt="" class="auth-logo">
+        <h1>Create an account</h1>
+        <p class="sub">Register to start building AI composite sketches</p>
+
+        <form method="POST" action="{{ url_for('register') }}" novalidate id="regForm">
+            <div class="field">
+                <label for="username">Username</label>
+                <input class="input-x" type="text" id="username" name="username" placeholder="Choose a username" required autofocus minlength="3">
+            </div>
+            <div class="field">
+                <label for="email">Email</label>
+                <input class="input-x" type="email" id="email" name="email" placeholder="you@department.gov" required>
+            </div>
+            <div class="field">
+                <label for="password">Password</label>
+                <div class="input-wrap">
+                    <input class="input-x" type="password" id="password" name="password" placeholder="Create a password" required minlength="8">
+                    <button type="button" class="toggle-pw" data-target="password">SHOW</button>
+                </div>
+                <div class="pw-meter"><span id="pwBar"></span></div>
+                <div class="field-hint" id="pwHint">Use 8+ characters with a number and a symbol.</div>
+            </div>
+            <div class="field">
+                <label for="confirm">Confirm password</label>
+                <div class="input-wrap">
+                    <input class="input-x" type="password" id="confirm" name="confirm" placeholder="Re-enter your password" required>
+                    <button type="button" class="toggle-pw" data-target="confirm">SHOW</button>
+                </div>
+                <div class="field-hint" id="matchHint"></div>
+            </div>
+            <button type="submit" class="btn-x btn-brand btn-block btn-lg-x">Create Account</button>
+        </form>
+
+        <div class="auth-alt">Already have an account? <a href="{{ url_for('login') }}">Sign in</a></div>
+    </div>
+</div>
+{% endblock %}
+
+{% block scripts %}
+<script>
+document.querySelectorAll('.toggle-pw').forEach(function (btn) {
+    btn.addEventListener('click', function () {
+        var inp = document.getElementById(btn.dataset.target);
+        var showing = inp.type === 'text';
+        inp.type = showing ? 'password' : 'text';
+        btn.textContent = showing ? 'SHOW' : 'HIDE';
+    });
+});
+
+var pw = document.getElementById('password'), bar = document.getElementById('pwBar'), hint = document.getElementById('pwHint');
+pw.addEventListener('input', function () {
+    var v = pw.value, score = 0;
+    if (v.length >= 8) score++;
+    if (/[A-Z]/.test(v) && /[a-z]/.test(v)) score++;
+    if (/\d/.test(v)) score++;
+    if (/[^A-Za-z0-9]/.test(v)) score++;
+    var pct = [0, 25, 50, 75, 100][score];
+    var color = ['#f43f5e', '#f43f5e', '#f59e0b', '#22d3ee', '#10b981'][score];
+    bar.style.width = pct + '%'; bar.style.background = color;
+    hint.textContent = ['Too short', 'Weak', 'Okay', 'Good', 'Strong'][score];
+});
+
+var confirm = document.getElementById('confirm'), matchHint = document.getElementById('matchHint');
+function checkMatch() {
+    if (!confirm.value) { matchHint.textContent = ''; return; }
+    var ok = confirm.value === pw.value;
+    matchHint.textContent = ok ? '✓ Passwords match' : '✗ Passwords do not match';
+    matchHint.style.color = ok ? 'var(--success)' : 'var(--danger)';
+}
+confirm.addEventListener('input', checkMatch);
+pw.addEventListener('input', checkMatch);
+</script>
+{% endblock %}

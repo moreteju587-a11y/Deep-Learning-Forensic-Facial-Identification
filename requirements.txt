@@ -1,0 +1,38 @@
+Flask==3.0.3
+Flask-SQLAlchemy==3.1.1
+Flask-Bcrypt==1.0.1
+Werkzeug==3.0.3
+Jinja2==3.1.4
+gunicorn==23.0.0
+
+mysql-connector-python==9.0.0
+SQLAlchemy==2.0.35
+
+numpy==1.26.4
+pandas
+Pillow
+
+opencv-python-headless==4.10.0.84
+
+torch==2.2.2
+torchvision==0.17.2
+
+transformers==4.38.2
+huggingface-hub==0.20.3
+sentencepiece
+accelerate
+
+diffusers
+safetensors
+
+insightface==1.0.1
+onnxruntime
+
+reportlab
+requests
+python-dotenv
+
+# Optional — only needed by utils.py's legacy encoder (the app itself uses
+# insightface via match_face.py and does not require this). Needs cmake +
+# a C++ build toolchain to install; skip it if you don't use utils.py.
+# face_recognition==1.3.0

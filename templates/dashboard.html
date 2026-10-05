@@ -1,0 +1,106 @@
+{% extends "layout.html" %}
+{% block title %}Dashboard{% endblock %}
+
+{% block content %}
+<div class="container-wide page-head">
+    <span class="eyebrow">Welcome back, {{ session.get('username', 'Officer') }}</span>
+    <h1>Case Dashboard</h1>
+    <p>Start a new sketch, resume the recognition search, and review your recent activity.</p>
+</div>
+
+<div class="container-wide" style="padding-bottom:70px">
+
+    <div class="stat-grid">
+        <div class="stat-card">
+            <div class="lbl">Cases created</div>
+            <div class="val">{{ stats.total_cases | default(0) }}</div>
+            <div class="sub">All time</div>
+        </div>
+        <div class="stat-card">
+            <div class="lbl">Matches found</div>
+            <div class="val">{{ stats.matches_found | default(0) }}</div>
+            <div class="sub">≥ 50% similarity</div>
+        </div>
+        <div class="stat-card">
+            <div class="lbl">Avg. confidence</div>
+            <div class="val">{{ stats.avg_similarity | default('—') }}{{ '%' if stats.avg_similarity is defined and stats.avg_similarity != '—' }}</div>
+            <div class="sub">Across matched cases</div>
+        </div>
+        <div class="stat-card">
+            <div class="lbl">Reports generated</div>
+            <div class="val">{{ stats.reports | default(0) }}</div>
+            <div class="sub">PDF case files</div>
+        </div>
+    </div>
+
+    <div class="quick-grid">
+        <a href="{{ url_for('sketch_constructor') }}" class="quick-card">
+            <span class="ico">🎙️</span>
+            <div>
+                <h3>New Face Constructor</h3>
+                <p>Describe a suspect by voice and generate an AI composite face</p>
+            </div>
+            <span class="arrow">→</span>
+        </a>
+        <a href="{{ url_for('recognition') }}" class="quick-card">
+            <span class="ico">🔍</span>
+            <div>
+                <h3>Run Recognition Search</h3>
+                <p>Upload a face and search it against the criminal database</p>
+            </div>
+            <span class="arrow">→</span>
+        </a>
+    </div>
+
+    <div class="glass">
+        <div class="sec-head">
+            <h2>Recent Cases</h2>
+            {% if cases %}<span style="color:var(--muted);font-size:13px">{{ cases | length }} shown</span>{% endif %}
+        </div>
+
+        {% if cases %}
+        <div class="table-wrap">
+            <table class="data">
+                <thead>
+                    <tr>
+                        <th>Case</th>
+                        <th>Matched suspect</th>
+                        <th>Similarity</th>
+                        <th>Date</th>
+                        <th></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for c in cases %}
+                    <tr>
+                        <td>
+                            <div class="thumb-pair">
+                                {% if c.sketch_image %}<img class="thumb" src="{{ c.sketch_image }}" alt="">{% endif %}
+                                {% if c.matched_image %}<img class="thumb" src="{{ c.matched_image }}" alt="">{% endif %}
+                            </div>
+                        </td>
+                        <td><b>{{ c.matched_name or '—' }}</b></td>
+                        <td>
+                            {% if c.similarity is not none %}
+                            <span class="badge-x {{ 'badge-high' if c.similarity >= 75 else ('badge-med' if c.similarity >= 50 else 'badge-low') }}">{{ c.similarity }}%</span>
+                            {% else %}
+                            <span class="badge-x badge-none">No match</span>
+                            {% endif %}
+                        </td>
+                        <td style="color:var(--muted)">{{ c.created_at }}</td>
+                        <td>{% if c.report_url %}<a href="{{ c.report_url }}" class="btn-x btn-ghost" style="padding:7px 14px;font-size:12px">View</a>{% endif %}</td>
+                    </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+        </div>
+        {% else %}
+        <div class="empty">
+            <div class="big">🗂️</div>
+            <h3>No cases yet</h3>
+            <p>Run your first Face Constructor + Recognition search to see it appear here.</p>
+        </div>
+        {% endif %}
+    </div>
+</div>
+{% endblock %}

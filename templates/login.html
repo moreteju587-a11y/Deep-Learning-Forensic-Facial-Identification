@@ -1,0 +1,42 @@
+{% extends "layout.html" %}
+{% block title %}Login{% endblock %}
+
+{% block content %}
+<div class="auth-shell">
+    <div class="glass auth-card">
+        <img src="{{ url_for('static', filename='images/logo-nav.png') }}" alt="" class="auth-logo">
+        <h1>Welcome back</h1>
+        <p class="sub">Sign in to continue your investigation</p>
+
+        <form method="POST" action="{{ url_for('login') }}" novalidate>
+            <div class="field">
+                <label for="username">Username</label>
+                <input class="input-x" type="text" id="username" name="username" placeholder="Enter your username" required autofocus>
+            </div>
+            <div class="field">
+                <label for="password">Password</label>
+                <div class="input-wrap">
+                    <input class="input-x" type="password" id="password" name="password" placeholder="Enter your password" required>
+                    <button type="button" class="toggle-pw" data-target="password">SHOW</button>
+                </div>
+            </div>
+            <button type="submit" class="btn-x btn-brand btn-block btn-lg-x">Sign In</button>
+        </form>
+
+        <div class="auth-alt">Don't have an account? <a href="{{ url_for('register') }}">Register here</a></div>
+    </div>
+</div>
+{% endblock %}
+
+{% block scripts %}
+<script>
+document.querySelectorAll('.toggle-pw').forEach(function (btn) {
+    btn.addEventListener('click', function () {
+        var inp = document.getElementById(btn.dataset.target);
+        var showing = inp.type === 'text';
+        inp.type = showing ? 'password' : 'text';
+        btn.textContent = showing ? 'SHOW' : 'HIDE';
+    });
+});
+</script>
+{% endblock %}

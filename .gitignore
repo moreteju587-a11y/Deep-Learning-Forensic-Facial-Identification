@@ -1,0 +1,18 @@
+# Secrets
+.env
+
+# Python
+__pycache__/
+*.pyc
+venv/
+.venv/
+
+# Runtime-generated files (uploads, AI-generated faces, PDF reports)
+static/uploads/
+static/generated_faces/
+static/reports/
+
+# OS / editor
+.DS_Store
+.vscode/
+.idea/
