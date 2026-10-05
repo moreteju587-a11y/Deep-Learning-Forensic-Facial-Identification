@@ -527,7 +527,7 @@ const STEPS = [
     {
         key:'gender',
         label:'Gender',
-        icon:photo('face_2.jpg','Gender'),
+        icon:photo('face_4.jpg?v=2','Gender'),
         question:'What is the gender of the suspect?',
         hint:'Say "male", "female", or "unknown".'
     },
@@ -836,7 +836,15 @@ function markCollected(key, label) {
     row.classList.add('done');
     val.className='feat-value';
     val.textContent = label;
-    chk.textContent='✓';
+        chk.textContent='✓';
+
+    // Gender row: show the photo that matches the chosen answer
+    if (key === 'gender') {
+        const fi = $('fi-' + key);
+        const genderIcons = REF_ICONS.gender || {};
+        if (fi) fi.innerHTML = genderIcons[label] || genderIcons['Unknown'] || fi.innerHTML;
+    }
+
     const done=Object.keys(collected).length;
     $('collectedCount').textContent=`${done} / ${STEPS.length}`;
 }

@@ -92,6 +92,6 @@ const REF_ICONS = {
     "Unknown": photo('facial_1.jpg','Neutral facial hair reference')
   }
 };
-
+const UNKNOWN_ICON = '<div class="hint-unknown">?</div>';
 
 
