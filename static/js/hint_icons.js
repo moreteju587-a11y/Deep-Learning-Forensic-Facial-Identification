@@ -163,9 +163,38 @@ function currentHintGender() {
   return g === 'Female' ? 'female' : g === 'Male' ? 'male' : 'unknown';
 }
 
+// head and hair images are named by style (e.g. head/oval.jpg), not by number.
+const NAMED_HINTS = {
+  head: {
+    "Oval face": "oval", "Round face": "round", "Long face": "long",
+    "Square face": "square", "Heart-shaped face": "oval",
+    "Wide face": "round", "Narrow face": "long"
+  },
+  hair: {
+    male: {
+      "Short straight hair": "short_straight", "Long straight hair": "long_straight",
+      "Curly hair": "curly", "Wavy hair": "wavy", "Bald": "bald",
+      "Crew cut": "crew_cut", "Afro": "afro"
+    },
+    female: {
+      "Short straight hair": "short_straight", "Long straight hair": "long_straight",
+      "Curly hair": "curly", "Wavy hair": "wavy", "Afro": "curly",
+      "Crew cut": "short_straight"
+    }
+  }
+};
+
 function hintPath(key, label) {
   if (label === 'Unknown') return `neutral_${key === 'mustach' ? 'facial' : key}.jpg`;
   const gender = currentHintGender();
+
+  if (key === 'head' || key === 'hair') {
+    const table = key === 'hair' ? (NAMED_HINTS.hair[gender] || {}) : NAMED_HINTS.head;
+    const name = table[label];
+    if (name && gender !== 'unknown') return `${gender}/${key}/${name}.jpg`;
+    return `neutral_${key}.jpg`;
+  }
+
   const mapped = HINT_MAP[gender] && HINT_MAP[gender][key] ? HINT_MAP[gender][key][label] : null;
   if (mapped) return `${gender}/${key === 'mustach' ? 'facial' : key}/${mapped}.jpg`;
   return `neutral_${key === 'mustach' ? 'facial' : key}.jpg`;
