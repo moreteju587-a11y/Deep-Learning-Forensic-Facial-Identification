@@ -527,56 +527,56 @@ const STEPS = [
     {
         key:'gender',
         label:'Gender',
-        icon:photo('face_4.jpg?v=2','Gender'),
+        icon:photo('neutral_gender.jpg','Gender'),
         question:'What is the gender of the suspect?',
         hint:'Say "male", "female", or "unknown".'
     },
     {
     key: 'age',
     label: 'Age',
-    icon:photo('face_1.jpg','Age'),
+    icon:photo('neutral_age.jpg','Age'),
     question: 'What is the approximate age of the suspect?',
     hint: 'Say the age, for example: 20 years, 35 years, 48 years.'
 },
     {
     key: 'skin',
     label: 'Skin Color',
-    icon:photo('skin_3.jpg','Skin'),
+    icon:photo('neutral_skin.jpg','Skin'),
     question: 'What was the skin color or complexion of the suspect?',
     hint: 'e.g. "very fair", "fair", "light brown", "medium brown", "dark brown", "deep brown", "black", "olive", "tan", "unknown"'
    },
     {
-        key:'head', label:'Head Shape', icon:photo('face_1.jpg','Head shape'),
+        key:'head', label:'Head Shape', icon:photo('neutral_head.jpg','Head shape'),
         question:'Tell me about the head shape.',
         hint:'e.g. "long oval face", "round chubby face", "square jaw", "narrow face", "wide broad forehead"'
     },
     {
-        key:'hair', label:'Hair Style', icon:photo('hair_2.jpg','Hair'),
+        key:'hair', label:'Hair Style', icon:photo('neutral_hair.jpg','Hair'),
         question:'Describe the hair — style, length, and type.',
         hint:'e.g. "long straight hair", "short curly", "wavy", "bald", "crew cut", "afro"'
     },
     {
-        key:'eyebrows', label:'Eyebrows', icon:photo('eyes_2.jpg','Eyebrows'),
+        key:'eyebrows', label:'Eyebrows', icon:photo('neutral_eyebrows.jpg','Eyebrows'),
         question:'What did the eyebrows look like?',
         hint:'e.g. "thick bushy brows", "thin pencil", "arched", "flat straight", "bold dark"'
     },
     {
-        key:'eyes', label:'Eyes', icon:photo('eyes_1.jpg','Eyes'),
+        key:'eyes', label:'Eyes', icon:photo('neutral_eyes.jpg','Eyes'),
         question:'Describe the eyes.',
         hint:'e.g. "narrow slit eyes", "wide round eyes", "almond shaped", "small deep set", "large open"'
     },
     {
-        key:'nose', label:'Nose', icon:photo('facial_2.jpg','Nose'),
+        key:'nose', label:'Nose', icon:photo('neutral_nose.jpg','Nose'),
         question:'Tell me about the nose.',
         hint:'e.g. "broad flat nose", "thin pointed", "button nose", "large wide nostrils", "hooked"'
     },
     {
-        key:'lips', label:'Lips / Mouth', icon:photo('facial_3.jpg','Lips'),
+        key:'lips', label:'Lips / Mouth', icon:photo('neutral_lips.jpg','Lips'),
         question:'Describe the lips or mouth.',
         hint:'e.g. "thin lips", "full thick lips", "wide mouth", "small pressed lips", "pouty"'
     },
     {
-        key:'mustach', label:'Facial Hair', icon:photo('facial_3.jpg','Facial hair'),
+        key:'mustach', label:'Facial Hair', icon:photo('neutral_facial.jpg','Facial hair'),
         question:'Any facial hair — mustache or beard?',
         hint:'e.g. "thick mustache", "full beard", "goatee", "clean shaven", "stubble", "no facial hair"'
     }
@@ -690,8 +690,6 @@ function renderRefGrid(stepObj) {
     grid.innerHTML = '';
 
     const options = FEATURE_OPTIONS[stepObj.key] || [];
-    const iconSet = REF_ICONS[stepObj.key];
-
     options.forEach(label => {
         const chip = document.createElement('div');
         chip.className = 'ref-chip';
@@ -699,11 +697,9 @@ function renderRefGrid(stepObj) {
 
         let visual;
         if (label === 'Unknown') {
-            visual = UNKNOWN_ICON;
-        } else if (iconSet && iconSet[label]) {
-            visual = iconSet[label];
+            visual = getHintIcon(stepObj.key, label);
         } else {
-            visual = UNKNOWN_ICON;
+            visual = getHintIcon(stepObj.key, label);
         }
 
         chip.innerHTML = `${visual}<span>${label}</span>`;
@@ -838,12 +834,10 @@ function markCollected(key, label) {
     val.textContent = label;
         chk.textContent='✓';
 
-    // Gender row: show the photo that matches the chosen answer
-    if (key === 'gender') {
-        const fi = $('fi-' + key);
-        const genderIcons = REF_ICONS.gender || {};
-        if (fi) fi.innerHTML = genderIcons[label] || genderIcons['Unknown'] || fi.innerHTML;
-    }
+    // Every collected feature uses the professional reference that matches
+    // the selected gender and the exact feature/option.
+    const fi = $('fi-' + key);
+    if (fi) fi.innerHTML = getHintIcon(key, label);
 
     const done=Object.keys(collected).length;
     $('collectedCount').textContent=`${done} / ${STEPS.length}`;
