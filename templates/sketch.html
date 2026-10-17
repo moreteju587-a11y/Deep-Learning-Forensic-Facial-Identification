@@ -518,7 +518,7 @@
 </form>
 {% endblock %}
 {% block scripts %}
-<script src="{{ url_for('static', filename='js/hint_icons.js') }}"></script>
+<script src="{{ url_for('static', filename='js/hint_icons.js', v='3') }}"></script>
 <script>
 const SKETCH_PARTS = {{ parts | tojson }};
 

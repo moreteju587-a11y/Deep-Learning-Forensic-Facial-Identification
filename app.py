@@ -489,25 +489,29 @@ def generate_face():
 
 def build_face_prompt(features):
 
-    gender = features.get(
-        "gender",
-        "person"
-    )
+    SKIP_VALUES = {"", "skipped", "unknown"}
+
+    gender = features.get("gender")
+    if not gender or str(gender).strip().lower() in SKIP_VALUES:
+        gender = "person"
+    gender = str(gender).strip().lower()
 
 
     parts = []
 
 
+    # Labels already contain words like "face", "hair", "eyes", "nose",
+    # "lips", so they are used as-is instead of adding the word again.
     mapping = {
 
         'skin': '{} skin tone',
-        'head': '{} face shape',
-        'hair': '{} hairstyle',
-        'eyebrows': '{} eyebrows',
-        'eyes': '{} eyes',
-        'nose': '{} nose',
-        'lips': '{} lips',
-        'mustach': '{} facial hair'
+        'head': '{}',
+        'hair': '{}',
+        'eyebrows': '{}',
+        'eyes': '{}',
+        'nose': '{}',
+        'lips': '{}',
+        'mustach': '{}'
 
     }
 
@@ -516,12 +520,19 @@ def build_face_prompt(features):
 
         value = features.get(key)
 
+        if not value or str(value).strip().lower() in SKIP_VALUES:
+            continue
 
-        if value and value != "Skipped":
+        value = str(value).strip()
 
-            parts.append(
-                template.format(value)
-            )
+        if key == 'hair' and value.lower() == 'bald':
+            value = 'completely bald head, no hair'
+        elif key == 'hair' and value.lower() == 'afro':
+            value = 'afro hair'
+
+        parts.append(
+            template.format(value.lower())
+        )
 
 
     description = ", ".join(parts)

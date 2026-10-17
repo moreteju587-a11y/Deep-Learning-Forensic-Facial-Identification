@@ -167,8 +167,8 @@ function currentHintGender() {
 const NAMED_HINTS = {
   head: {
     "Oval face": "oval", "Round face": "round", "Long face": "long",
-    "Square face": "square", "Heart-shaped face": "oval",
-    "Wide face": "round", "Narrow face": "long"
+    "Square face": "square", "Heart-shaped face": "heart_shaped",
+    "Wide face": "wide", "Narrow face": "narrow"
   },
   hair: {
     male: {
@@ -178,8 +178,8 @@ const NAMED_HINTS = {
     },
     female: {
       "Short straight hair": "short_straight", "Long straight hair": "long_straight",
-      "Curly hair": "curly", "Wavy hair": "wavy", "Afro": "curly",
-      "Crew cut": "short_straight"
+      "Curly hair": "curly", "Wavy hair": "wavy", "Bald": "bald",
+      "Crew cut": "crew_cut", "Afro": "afro"
     }
   }
 };

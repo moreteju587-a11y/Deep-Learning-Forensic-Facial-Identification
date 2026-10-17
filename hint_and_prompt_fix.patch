@@ -1,0 +1,108 @@
+diff --git a/app.py b/app.py
+index 77cb034..633486a 100644
+--- a/app.py
++++ b/app.py
+@@ -489,25 +489,29 @@ def generate_face():
+ 
+ def build_face_prompt(features):
+ 
+-    gender = features.get(
+-        "gender",
+-        "person"
+-    )
++    SKIP_VALUES = {"", "skipped", "unknown"}
++
++    gender = features.get("gender")
++    if not gender or str(gender).strip().lower() in SKIP_VALUES:
++        gender = "person"
++    gender = str(gender).strip().lower()
+ 
+ 
+     parts = []
+ 
+ 
++    # Labels already contain words like "face", "hair", "eyes", "nose",
++    # "lips", so they are used as-is instead of adding the word again.
+     mapping = {
+ 
+         'skin': '{} skin tone',
+-        'head': '{} face shape',
+-        'hair': '{} hairstyle',
+-        'eyebrows': '{} eyebrows',
+-        'eyes': '{} eyes',
+-        'nose': '{} nose',
+-        'lips': '{} lips',
+-        'mustach': '{} facial hair'
++        'head': '{}',
++        'hair': '{}',
++        'eyebrows': '{}',
++        'eyes': '{}',
++        'nose': '{}',
++        'lips': '{}',
++        'mustach': '{}'
+ 
+     }
+ 
+@@ -516,12 +520,19 @@ def build_face_prompt(features):
+ 
+         value = features.get(key)
+ 
++        if not value or str(value).strip().lower() in SKIP_VALUES:
++            continue
+ 
+-        if value and value != "Skipped":
++        value = str(value).strip()
+ 
+-            parts.append(
+-                template.format(value)
+-            )
++        if key == 'hair' and value.lower() == 'bald':
++            value = 'completely bald head, no hair'
++        elif key == 'hair' and value.lower() == 'afro':
++            value = 'afro hair'
++
++        parts.append(
++            template.format(value.lower())
++        )
+ 
+ 
+     description = ", ".join(parts)
+diff --git a/static/js/hint_icons.js b/static/js/hint_icons.js
+index d118e51..db81deb 100644
+--- a/static/js/hint_icons.js
++++ b/static/js/hint_icons.js
+@@ -167,8 +167,8 @@ function currentHintGender() {
+ const NAMED_HINTS = {
+   head: {
+     "Oval face": "oval", "Round face": "round", "Long face": "long",
+-    "Square face": "square", "Heart-shaped face": "oval",
+-    "Wide face": "round", "Narrow face": "long"
++    "Square face": "square", "Heart-shaped face": "heart_shaped",
++    "Wide face": "wide", "Narrow face": "narrow"
+   },
+   hair: {
+     male: {
+@@ -178,8 +178,8 @@ const NAMED_HINTS = {
+     },
+     female: {
+       "Short straight hair": "short_straight", "Long straight hair": "long_straight",
+-      "Curly hair": "curly", "Wavy hair": "wavy", "Afro": "curly",
+-      "Crew cut": "short_straight"
++      "Curly hair": "curly", "Wavy hair": "wavy", "Bald": "bald",
++      "Crew cut": "crew_cut", "Afro": "afro"
+     }
+   }
+ };
+diff --git a/templates/sketch.html b/templates/sketch.html
+index 6664f40..fb48028 100644
+--- a/templates/sketch.html
++++ b/templates/sketch.html
+@@ -518,7 +518,7 @@
+ </form>
+ {% endblock %}
+ {% block scripts %}
+-<script src="{{ url_for('static', filename='js/hint_icons.js') }}"></script>
++<script src="{{ url_for('static', filename='js/hint_icons.js', v='3') }}"></script>
+ <script>
+ const SKETCH_PARTS = {{ parts | tojson }};
+ 
